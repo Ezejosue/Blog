@@ -69,3 +69,39 @@ nav .profile-link a {
   color: black;
   border-bottom: 1px solid black;
 }
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+main .main-container {
+  width: 100%;
+  height: 100%;
+  background-image: url("/assets/img/Cover.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+main .section-title {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  width: 500px;
+  margin-top: 110px;
+}
+
+main .section-button {
+  width: 90px;
+  height: 40px;
+  margin-top: 90px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #47cfac;
+  border-color: white;
+}
