@@ -86,22 +86,29 @@ main .main-container {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  text-align: center;
 }
 
 main .section-title {
   color: white;
-  font-size: 2rem;
+  font-size: 1.9rem;
   font-weight: bold;
-  width: 500px;
-  margin-top: 110px;
+  margin-top: 70px;
+  font-family: monospace;
+  letter-spacing: 10px;
 }
 
 main .section-button {
-  width: 90px;
+  width: 100px;
   height: 40px;
-  margin-top: 90px;
-  font-size: 1rem;
-  font-weight: bold;
+  margin: 100px auto;
   background-color: #47cfac;
   border-color: white;
+  display: grid;
+}
+
+main .section-button a {
+  margin: auto;
+  font-size: 1rem;
+  font-weight: bold;
 }
