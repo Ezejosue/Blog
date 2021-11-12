@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
 
+:root {
+  --grey-light: #cdd2da;
+  --green-ice: #47cfac;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -23,7 +28,7 @@ header .header-icons-container {
   width: 100%;
   height: 50px;
   display: grid;
-  background-color: #47cfac;
+  background-color: var(--green-ice);
 }
 
 header .header-icons-container .icons {
@@ -99,7 +104,7 @@ main .section-button {
   width: 100px;
   height: 40px;
   margin: 100px auto;
-  background-color: #47cfac;
+  background-color: var(--green-ice);
   border-color: white;
   display: grid;
 }
@@ -159,13 +164,13 @@ main .section-button a {
 }
 
 .blogs-posts-container h3 {
-  border-bottom: 1px solid #cdd2da;
+  border-bottom: 1px solid var(--grey-light);
   padding-bottom: 20px;
   text-align: center;
 }
 
 .blogs-button {
-  border: 1px solid #47cfac;
+  border: 1px solid var(--green-ice);
   padding: 10px 15px;
   font-size: 12px;
 }
@@ -189,7 +194,7 @@ footer {
   width: 100%;
   height: 80px;
   background-color: #22272d;
-  border-top: 35px solid #47cfac;
+  border-top: 35px solid var(--green-ice);
   text-align: center;
 }
 
@@ -211,7 +216,7 @@ footer p {
 }
 
 .blogpost-main-container h3 {
-  border-bottom: 1px solid #cdd2da;
+  border-bottom: 1px solid var(--grey-light);
   padding-bottom: 20px;
 }
 
@@ -222,7 +227,7 @@ footer p {
 .contact-main-container {
   width: 100%;
   min-height: 250px;
-  background-color: #cdd2da;
+  background-color: var(--grey-light);
   text-align: center;
   padding-bottom: 50px;
 }
@@ -238,11 +243,43 @@ footer p {
   padding-bottom: 5px;
 }
 
-.contact-main-container .contact-left, .contact-right {
+.contact-main-container .contact-left,
+.contact-right {
   text-align: initial;
   margin-top: 85px;
 }
 
 .contact-main-container img {
   width: 100px;
+}
+
+.profile-main-container {
+  padding: 70px 40px;
+  background-color: #e6e9ed;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.profile-main-container img {
+  width: 320px;
+  margin-right: 30px;
+}
+
+.profile-main-proyects {
+  padding: 0 50px 40px;
+}
+
+.profile-main-proyects h3 {
+  border-bottom: 1px solid var(--grey-light);
+  padding-bottom: 35px;
+  text-align: center;
+}
+
+.proyects-main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.proyect-container {
+  padding: 0 5px;
 }
